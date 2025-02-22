@@ -24,7 +24,7 @@
   background-color: rgba(255, 144, 14, 0.1);
 }
 
-.bg-primary{
+.btn-primary{
   background-color: rgba(255, 144, 14, 1);
   color: #ffff;
   font-size: 1.25rem;
@@ -33,6 +33,15 @@
   border-radius: 8px;
   margin-top: 38px;
   border: none;
+}
+
+main{
+  max-width:1440px;
+  margin: 0 auto;
+}
+
+main > section{
+  margin-top: 130px;
 }
 
 /* header style */
@@ -84,6 +93,24 @@
 .banner-img{
   max-width: 100%;
 }
+/* teams and feature related style */
+.teams{
+  align-items: center;
+}
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.our-features{
+  margin-left: 73px;
+  max-width: 537px;
+}
+.feature-title{
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px){
