@@ -211,6 +211,18 @@ feature-card, .feature-title{
   width: 100%;
 }
 
+/* footer releted style */
+
+.footer{
+  font-size: 1.25rem;
+  max-width: 620px;
+  padding: 39px 410px;
+  margin-top: 130px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px){
